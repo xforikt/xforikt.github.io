@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>简易天气查询</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>天气查询</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="输入城市名称">
+            <button onclick="getWeather()">查询</button>
+        </div>
+        <div id="weatherResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
